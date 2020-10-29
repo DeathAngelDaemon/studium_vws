@@ -1,0 +1,88 @@
+@startuml
+
+title Class Diagram - LotRO Raid planner
+
+interface IName {
+  string Name
+}
+interface IPersonalInformation {
+  string Email
+  string Password
+}
+
+enum RacesEnum {
+  Beorning
+  Dwarf
+  Elf
+  HighElf
+  Hobbit
+  Man
+}
+enum ClassesEnum {
+  Beorning
+  Burglar
+  Captain
+  Champion
+  Guardian
+  Hunter
+  Loremaster
+  Minstrel
+  Runekeeper
+  Warden
+}
+enum RolesEnum {
+  Tank
+  Heal
+  Support
+  Damage
+}
+
+class Member {
+  string Name
+  string Email
+  string Password
+  getName()
+  getEmail()
+  getAllCharacters()
+}
+
+class Character {
+  string Name
+  RacesEnum Race
+  ClassesEnum Class
+  int Level
+  RolesEnum Role
+}
+
+class Role {
+  RolesEnum Name
+  int Count
+}
+
+class Instance {
+  string Name
+  int PlayerCount
+  int Level
+  int Tier
+  Object[Role] Roles
+}
+
+class Event {
+  Instance InstanceInformation
+  Date Date
+  Time Start
+  Time End
+}
+
+IName <|-- IPersonalInformation
+IPersonalInformation <|-- Member
+IName <|-- Character
+IName <|-- Instance
+
+Member "1" o-- "1..*" Character
+Character "1..*" -* Instance
+Member --> Instance : "creates"
+Instance "1" --* "1..*" Event
+Instance "1..*" *- Role
+
+@enduml
