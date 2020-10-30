@@ -1,6 +1,6 @@
 @startuml
 
-title Class Diagram - Raid planner
+title Class Diagram - LotRO Raid planner
 
 interface IName {
   string Name
@@ -8,6 +8,9 @@ interface IName {
 interface IPersonalInformation {
   string Email
   string Password
+}
+interface ILevel {
+  int Level
 }
 
 enum RacesEnum {
@@ -43,7 +46,7 @@ class Member {
   string Password
   getName()
   getEmail()
-  getAllCharacters()
+  Object[Character] getAllCharacters()
 }
 
 class Character {
@@ -52,6 +55,7 @@ class Character {
   ClassesEnum Class
   int Level
   RolesEnum Role
+  Character getCharacter()
 }
 
 class Role {
@@ -73,12 +77,15 @@ class Event {
   Date Date
   Time Start
   Time End
+  Event getEvent()
 }
 
 IName <|-- IPersonalInformation
 IPersonalInformation <|-- Member
 IName <|-- Character
 IName <|-- Instance
+Character --|> ILevel
+Instance --|> ILevel
 
 Member "1" --o "1..*" Character
 Character "1..*" -o Instance
