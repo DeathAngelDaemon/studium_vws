@@ -1,6 +1,6 @@
 @startuml
 
-title Class Diagram - LotRO Raid planner
+title Class Diagram - Raid planner
 
 interface IName {
   string Name
@@ -65,6 +65,7 @@ class Instance {
   int Level
   int Tier
   Object[Role] Roles
+  Object[Character] Characters
 }
 
 class Event {
@@ -79,10 +80,10 @@ IPersonalInformation <|-- Member
 IName <|-- Character
 IName <|-- Instance
 
-Member "1" o-- "1..*" Character
-Character "1..*" -* Instance
+Member "1" --o "1..*" Character
+Character "1..*" -o Instance
 Member --> Instance : "creates"
-Instance "1" --* "1..*" Event
+Instance "1" --o "1..*" Event
 Instance "1..*" *- Role
 
 @enduml
