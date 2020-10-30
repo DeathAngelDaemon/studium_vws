@@ -1,0 +1,53 @@
+@startuml
+
+title Component Diagram - LotRO Raid planner
+
+interface ILogin
+interface ISignUp
+
+package "Front End / GUI" {
+  component [Login / SignUp Page] as LSP
+  component [Member Area] as MA
+  component [Calender]
+}
+
+package "Character Management" {
+  [Character\nCRUD] <<components>> as CRUD
+}
+
+package "User Management" {
+  [Authentication] <<component>>
+  [Creation] <<component>>
+}
+
+package "Event Management" {
+  [Event\nCRUD] <<components>> as EC
+}
+
+node "Services" {
+  [Data Access] as DA
+}
+
+database "SQL database" {
+  [User Table] <<database>> as UT
+  [Character Table] <<database>> as CT
+  [Event Table] <<database>> as ET
+}
+
+MA -- CRUD
+LSP -down-( ISignUp
+LSP -down-( ILogin
+ILogin -- Authentication
+ISignUp -- Creation
+Calender -- EC
+
+CRUD -- DA
+Authentication -- DA
+Creation -- DA
+EC -- DA
+
+DA .. ET
+DA .. UT
+DA .. CT
+
+@enduml
