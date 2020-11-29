@@ -13,7 +13,7 @@ Aufgabenstellung:
 Aufgabenstellung:
 * _einen Bereich finden, der Domain Familien hergibt!_ (à la Google)
 * _Bild zeichnen mit dem Netzwerk / Graph_
-* _Mappings / Relations zwischen den Domains definieren!
+* _Mappings / Relations zwischen den Domains definieren!_
 
 ## Einsendeaufgabe 3: Metriken
 
