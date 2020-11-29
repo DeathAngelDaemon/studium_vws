@@ -18,3 +18,12 @@ Aufgabenstellung:
 ## Einsendeaufgabe 3: Metriken
 
 ## Einsendeaufgabe 4: Clean Code Development
+
+## Einsendeaufgabe 5: DVCS mit GitHub / GitLab
+
+Aufgabenstellung:
+* _Repo bei GitHub/GitLab erstellen_
+* _Projekt (aus vorangegangener ESA oder neu) pushen_
+* _alle relevanten GIT Methoden beweisbar anwenden_
+* _ggf. mit Transscript bzw. Screenshot belegen_
+* _für Bonuspunkte: einen Pull Request [hier](https://github.com/edlich/education) erstellen_
