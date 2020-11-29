@@ -10,6 +10,11 @@ Aufgabenstellung:
 
 ## Einsendeaufgabe 2: Design und DDD
 
+Aufgabenstellung:
+* _einen Bereich finden, der Domain Familien hergibt!_ (à la Google)
+* _Bild zeichnen mit dem Netzwerk / Graph_
+* _Mappings / Relations zwischen den Domains definieren!
+
 ## Einsendeaufgabe 3: Metriken
 
 ## Einsendeaufgabe 4: Clean Code Development
