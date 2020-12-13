@@ -32,3 +32,9 @@ Aufgabenstellung:
 * _Repo auf GitHub/GitLab erstellen_
 * _eigenes Projekt erstellen oder bestehendes pushen_
 * _alle relevanten GIT Methoden anwenden, z.B.: push, pull, add, commit, diff, status, rm/mv, etc._
+
+## Einsendeaufgabe 6: Advanced Buildmanagement
+
+Aufgabenstellung:
+* _BUILD zum Laufen bekommen_
+* _eigenes Skript welches die üblichen Aufgaben ausführt (z.B. Test, Compile, Run, Clean, Init, Doc, Jar,  etc.)_
