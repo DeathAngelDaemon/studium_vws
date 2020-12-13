@@ -17,4 +17,18 @@ Aufgabenstellung:
 
 ## Einsendeaufgabe 3: Metriken
 
+* _Installation von Sonarqube_
+* _Ausführung zweier Tests auf zwei verschiedenen Repos (PHP und C#)_
+
 ## Einsendeaufgabe 4: Clean Code Development
+
+Aufgabenstellung:
+* _eigenes kleines Programm schreiben, welches nur Clean Code enthält_
+* _Alternativ: bestehenden Code (nachweisbar) in Clean Code abändern_
+
+## Einsendeaufgabe 5: Distributed Version Control Systems (DVCS)
+
+Aufgabenstellung:
+* _Repo auf GitHub/GitLab erstellen_
+* _eigenes Projekt erstellen oder bestehendes pushen_
+* _alle relevanten GIT Methoden anwenden, z.B.: push, pull, add, commit, diff, status, rm/mv, etc._
