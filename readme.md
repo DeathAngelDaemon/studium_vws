@@ -38,3 +38,8 @@ Aufgabenstellung:
 Aufgabenstellung:
 * _BUILD zum Laufen bekommen_
 * _eigenes Skript welches die üblichen Aufgaben ausführt (z.B. Test, Compile, Run, Clean, Init, Doc, Jar,  etc.)_
+
+## Einsendeaufgabe 8: AOP - aspekt-orientierte Programmierung
+
+Aufgabenstellung:
+* _einen eigenen kleinen interessanten AOP Anwendungsfall ausdenken, mit AspectJ (oder Alternativen) ausprobieren und kurz beschreiben (incl. z.B. IDE Screenshot)_
