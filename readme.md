@@ -43,3 +43,8 @@ Aufgabenstellung:
 
 Aufgabenstellung:
 * _einen eigenen kleinen interessanten AOP Anwendungsfall ausdenken, mit AspectJ (oder Alternativen) ausprobieren und kurz beschreiben (incl. z.B. IDE Screenshot)_
+
+## Einsendeaufgabe 12: Logische Programmierung
+
+Aufgabenstellung:
+* _Leiten sie aus dem Bild Stammbaum.jpg (Herr der Ringe) Fakten für Prolog ab: Ist Elboron ein Nachfahre von Denethor? Welche Nachfahren hat Denethor? Übersenden sie Screenshots oder Protokolle._
