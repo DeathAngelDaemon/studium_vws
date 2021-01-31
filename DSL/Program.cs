@@ -20,7 +20,7 @@ namespace FamilyTree
                 .Build();
 
             Console.WriteLine("Latest Family Member:\n");
-            Console.WriteLine(JsonConvert.SerializeObject(p));            
+            Console.WriteLine(JsonConvert.SerializeObject(p, Formatting.Indented));            
         }
     }
 }
