@@ -44,6 +44,12 @@ Aufgabenstellung:
 Aufgabenstellung:
 * _einen eigenen kleinen interessanten AOP Anwendungsfall ausdenken, mit AspectJ (oder Alternativen) ausprobieren und kurz beschreiben (incl. z.B. IDE Screenshot)_
 
+## Einsendeaufgabe 9: DSL - Domain-specific-language
+
+Aufgabenstellung:
+* _Bauen sie eine sinnvolle Java DSL im Stile des Expression Builders / Fluent Interfaces, zu Ihrer Lieblingsdomain. Natürlich können sie das auch in jeder anderen Programmiersprache tun._
+* _Spielen sie mit Xtext, ANTLR, MPS oder anderen Werkzeugen herum und erstellen sie Ihre eigene Mikro-Sprache_
+
 ## Einsendeaufgabe 12: Logische Programmierung
 
 Aufgabenstellung:
